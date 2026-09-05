@@ -1,0 +1,22 @@
+project_id = "atxessadfknrjmnckyli"
+
+[functions.razorpay-webhook]
+verify_jwt = false
+
+[functions.create-razorpay-order]
+verify_jwt = true
+
+[functions.release-expired-holds]
+verify_jwt = false
+
+[functions.refund-payment]
+verify_jwt = true
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.process-payouts]
+verify_jwt = false
+
+[functions.complete-stays]
+verify_jwt = false
